@@ -7,4 +7,7 @@ export class Reembolso {
         this.valor = valor;
     }
     
+    valorReemb(){
+        console.log(this.valor - 5);
+    }
 }
